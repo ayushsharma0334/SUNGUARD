@@ -37,9 +37,11 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-primary mb-4">Contact Us</h3>
             <address className="not-italic text-sm space-y-2 text-foreground/80">
-              <p>123 Industrial Zone, Manufacturing City, 456789</p>
-              <p>Phone: <a href="tel:+1234567890" className="hover:text-primary hover:underline">+1 (234) 567-890</a></p>
-              <p>Email: <a href="mailto:info@suncastglobal.com" className="hover:text-primary hover:underline">info@suncastglobal.com</a></p>
+              <p><b>Suncast Global Pvt. Ltd.</b></p>
+              <p>Khasra No 119 Mahindra Road,</p>
+              <p>Prithla Industrial Area, Palwal, Haryana, IN -121102              </p>
+              <p>Phone: <a href="tel:+919818482365" className="hover:text-primary hover:underline">+919818482365</a></p>
+              <p>Email: <a href="mailto:suncastglobal1@gmail.com" className="hover:text-primary hover:underline">suncastglobal1@gmail.com</a></p>
             </address>
           </div>
         </div>
