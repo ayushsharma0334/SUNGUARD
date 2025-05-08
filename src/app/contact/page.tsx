@@ -25,24 +25,31 @@ export default function ContactPage() {
                 <MapPin className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                 <address className="not-italic text-foreground/80">
                   Suncast Global Pvt. Ltd.<br />
-                  123 Industrial Avenue, Metalwork City<br />
-                  Manufacturing State, MS 456789<br />
+                  Khasra No 119 Mahindra Road, <br />
+                  Prithla Industrial Area, Palwal, Haryana, 121102<br />
                   INDIA
                 </address>
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-primary mb-2">Call Us</h3>
+              <h3 className="text-xl font-semibold text-primary mb-2">Mr. Sanjiv Aggarwal</h3>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <a href="tel:+911234567890" className="text-foreground/80 hover:text-primary">+91-123-456-7890</a>
+                <a href="tel:+919818482365" className="text-foreground/80 hover:text-primary">+91 9818482365</a>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-primary mb-2">Mr. Satish Maheshwari (Gopal)</h3>
+              <div className="flex items-center gap-3">
+                <Phone className="h-5 w-5 text-accent" />
+                <a href="tel:+911234567890" className="text-foreground/80 hover:text-primary">+919811982501</a>
               </div>
             </div>
              <div>
               <h3 className="text-xl font-semibold text-primary mb-2">Email Us</h3>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent" />
-                <a href="mailto:info@suncastglobal.com" className="text-foreground/80 hover:text-primary">info@suncastglobal.com</a>
+                <a href="mailto:suncastglobal1@gmail.com" className="text-foreground/80 hover:text-primary">suncastglobal1@gmail.com</a>
               </div>
             </div>
             <div>
@@ -59,13 +66,7 @@ export default function ContactPage() {
         <div className="container max-w-7xl mx-auto px-0">
             <div className="relative h-64 md:h-96 w-full">
               {/* For maps, you'd typically embed Google Maps or use a library. This is a placeholder image. */}
-              <Image 
-                src="https://picsum.photos/1200/400?random=50" 
-                alt="Map showing Suncast Global location" 
-                layout="fill" 
-                objectFit="cover"
-                data-ai-hint="world map industrial"
-              />
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3378.0515667270056!2d77.3062973!3d28.226424999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cd1006eb3ed87%3A0xcfe6afd81d48015e!2sSuncast%20Global!5e1!3m2!1sen!2sin!4v1746689048109!5m2!1sen!2sin" width="auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                 <p className="text-white text-2xl font-semibold p-4 bg-black/50 rounded">Location Placeholder</p>
               </div>
