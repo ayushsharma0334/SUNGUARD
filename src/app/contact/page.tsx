@@ -42,7 +42,7 @@ export default function ContactPage() {
               <h3 className="text-xl font-semibold text-primary mb-2">Mr. Satish Maheshwari (Gopal)</h3>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <a href="tel:+911234567890" className="text-foreground/80 hover:text-primary">+919811982501</a>
+                <a href="tel:+919811982501" className="text-foreground/80 hover:text-primary">+919811982501</a>
               </div>
             </div>
              <div>
@@ -62,14 +62,23 @@ export default function ContactPage() {
         </div>
       </ContentSection>
       
-      <section className="py-0 md:py-0">
+      <section style={{marginBottom: '20px'}} className="py-0 md:py-0">
         <div className="container max-w-7xl mx-auto px-0">
             <div className="relative h-64 md:h-96 w-full">
               {/* For maps, you'd typically embed Google Maps or use a library. This is a placeholder image. */}
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3378.0515667270056!2d77.3062973!3d28.226424999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cd1006eb3ed87%3A0xcfe6afd81d48015e!2sSuncast%20Global!5e1!3m2!1sen!2sin!4v1746689048109!5m2!1sen!2sin" width="auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3378.0515667270056!2d77.3062973!3d28.226424999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cd1006eb3ed87%3A0xcfe6afd81d48015e!2sSuncast%20Global!5e1!3m2!1sen!2sin!4v1746689048109!5m2!1sen!2sin" 
+                width="100%" // Changed to 100% for responsiveness
+                height="300px" 
+                style={{ border: 0 }} // Corrected style prop
+                allowFullScreen={true} // Changed to boolean
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade" // Changed to camelCase
+              ></iframe>
+              {/* The placeholder overlay can be removed if the map loads correctly and is preferred. */}
+              {/* <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                 <p className="text-white text-2xl font-semibold p-4 bg-black/50 rounded">Location Placeholder</p>
-              </div>
+              </div> */}
             </div>
         </div>
       </section>
