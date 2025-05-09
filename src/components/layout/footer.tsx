@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { NAV_LINKS } from '@/lib/constants';
 import { SunIcon } from 'lucide-react';
+const LOGO_URL = "https://i.ibb.co/FbL41yL1/sssssssssssss.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,11 +11,14 @@ export function Footer() {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-4" aria-label="Suncast Global Home">
-              <SunIcon className="h-8 w-8 text-accent" />
-              <span className="text-xl font-bold text-primary">
-                Suncast Global
-              </span>
+            <Link href="/" className="inline-block mb-4" aria-label="Suncast Global Logo">
+              <Image 
+                src={LOGO_URL} 
+                alt="Suncast Global Logo" 
+                width={150} 
+                height={33} 
+                className="object-contain" 
+              />
             </Link>
             <p className="text-sm text-foreground/70">
               Specializing in high-quality brass ingots and rods for diverse industrial needs.
