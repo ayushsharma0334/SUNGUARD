@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { MenuIcon } from 'lucide-react';
 
-const LOGO_URL = "https://i.ibb.co/FbL41yL1/sssssssssssss.png"; 
+const LOGO_URL = "https://vsdstudio.in/wp-content/uploads/2025/05/sssssssssssss.png"; 
 
 export function Header() {
   return (
