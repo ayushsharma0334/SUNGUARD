@@ -1,18 +1,25 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { NavLinks } from './nav-links';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
-import { MenuIcon, SunIcon } from 'lucide-react'; // Using SunIcon as a placeholder logo element
+import { MenuIcon } from 'lucide-react';
+
+const LOGO_URL = "https://i.ibb.co/FbL41yL1/sssssssssssss.png"; 
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-2" aria-label="Suncast Global Home">
-          <SunIcon className="h-8 w-8 text-accent" />
-          <span className="text-2xl font-bold text-primary whitespace-nowrap">
-            Suncast Global
-          </span>
+        <Link href="/" className="flex items-center" aria-label="Suncast Global Logo">
+          <Image 
+            src={LOGO_URL} 
+            alt="Suncast Global Logo" 
+            width={150} 
+            height={33} 
+            className="object-contain"
+            priority 
+          />
         </Link>
         
         {/* Desktop Navigation */}
@@ -32,11 +39,14 @@ export function Header() {
             <SheetContent side="right" className="w-full max-w-xs sm:max-w-sm bg-background">
               <SheetHeader className="mb-6">
                 <SheetTitle>
-                  <Link href="/" className="flex items-center gap-2" aria-label="Suncast Global Home">
-                    <SunIcon className="h-7 w-7 text-accent" />
-                    <span className="text-xl font-bold text-primary">
-                      Suncast Global
-                    </span>
+                  <Link href="/" className="flex items-center" aria-label="Suncast Global Logo">
+                    <Image 
+                      src={LOGO_URL} 
+                      alt="Suncast Global Logo" 
+                      width={120} 
+                      height={27} 
+                      className="object-contain" 
+                    />
                   </Link>
                 </SheetTitle>
               </SheetHeader>
