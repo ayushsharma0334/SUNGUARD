@@ -66,31 +66,6 @@ export default function AboutUsPage() {
       <ContentSection title="Our Core Values" icon={<HeartIcon />}>
         <FeatureList items={coreValues} />
       </ContentSection>
-
-      <ContentSection title="Our History & Milestones" icon={<HistoryIcon />}>
-        <div className="relative">
-          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-border -translate-x-1/2 hidden md:block"></div>
-          {historyMilestones.map((milestone, index) => (
-            <div key={index} className="mb-8 flex md:items-center w-full">
-              <div className="hidden md:block md:w-1/2 md:pr-8 md:text-right">
-                {index % 2 === 0 && <h4 className="font-semibold text-primary text-lg">{milestone.year}</h4>}
-                {index % 2 === 0 && <p className="text-foreground/80">{milestone.event}</p>}
-              </div>
-              <div className="md:hidden mb-2">
-                <h4 className="font-semibold text-primary text-lg">{milestone.year}</h4>
-              </div>
-              <div className="z-10 flex items-center justify-center w-8 h-8 bg-accent text-accent-foreground rounded-full shadow-md shrink-0">
-                <CalendarIcon />
-              </div>
-              <div className="md:w-1/2 md:pl-8">
-                {index % 2 !== 0 && <h4 className="font-semibold text-primary text-lg md:block hidden">{milestone.year}</h4>}
-                <p className="text-foreground/80">{milestone.event}</p>
-                {index % 2 !== 0 && <h4 className="font-semibold text-primary text-lg md:hidden mt-1">{milestone.year}</h4>}
-              </div>
-            </div>
-          ))}
-        </div>
-      </ContentSection>
     </>
   );
 }

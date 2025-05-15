@@ -10,7 +10,7 @@ export default function CertificationsPage() {
       issuingBody: "International Organization for Standardization",
       description: "Demonstrates our commitment to consistently providing products and services that meet customer and regulatory requirements.",
       icon: <Award className="h-10 w-10 text-accent" />,
-      image: "https://picsum.photos/300/200?random=30",
+      image: "images/9001-2015.jpg",
       dataAiHint: "ISO certificate"
     },
     {
@@ -23,16 +23,16 @@ export default function CertificationsPage() {
     },
     {
       name: "OHSAS 18001 / ISO 45001 - Occupational Health and Safety",
-      issuingBody: "Relevant Certification Body",
+      issuingBody: "International Organization for Standardization",
       description: "Ensures a safe and healthy workplace by preventing work-related injury and ill health, as well as by proactively improving its OH&S performance.",
       icon: <ShieldCheck className="h-10 w-10 text-accent" />,
       image: "https://picsum.photos/300/200?random=32",
       dataAiHint: "safety certificate"
     },
     {
-      name: "Product Specific Certifications (e.g., RoHS, REACH)",
-      issuingBody: "Various Regulatory Bodies",
-      description: "Compliance with specific industry and regional standards for material content and safety, ensuring our products are suitable for global markets.",
+      name: "IATF 16949",
+      issuingBody: "Relevant Certification Body",
+      description: "IATF 16949 is a global quality management system standard for the automotive industry, based on ISO 9001:2015",
       icon: <CheckCircle className="h-10 w-10 text-accent" />,
       image: "https://picsum.photos/300/200?random=33",
       dataAiHint: "compliance document"
