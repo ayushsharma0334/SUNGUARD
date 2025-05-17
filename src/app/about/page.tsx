@@ -41,7 +41,7 @@ export default function AboutUsPage() {
           </div>
           <div className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg">
             <Image 
-              src="https://picsum.photos/600/400?random=40" 
+              src="images/Extrusion.jpg" 
               alt="Suncast Global Team" 
               layout="fill" 
               objectFit="cover"
