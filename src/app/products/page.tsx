@@ -8,7 +8,7 @@ export default function ProductsPage() {
     { 
       name: "Brass Ingots", 
       description: "High-purity brass ingots for casting and various industrial applications. Available in standard and custom alloys.",
-      image: "https://picsum.photos/400/300?random=10",
+      image: "images/ingt.jpg",
       dataAiHint: "metal ingots",
       features: [
         { title: "Alloy Variety", description: "CuZn30, CuZn37, CuZn40, and custom compositions.", icon: <Settings size={18} /> },
@@ -18,7 +18,7 @@ export default function ProductsPage() {
     { 
       name: "Brass Rods", 
       description: "Precision-engineered brass rods in various profiles (round, hexagonal, square) and sizes. Ideal for machining and fabrication.",
-      image: "https://picsum.photos/400/300?random=11",
+      image: "images/brassrod.jpg",
       dataAiHint: "brass rods",
       features: [
         { title: "Dimensional Accuracy", description: "Tight tolerances for diameter and length.", icon: <Ruler size={18} /> },
@@ -28,7 +28,7 @@ export default function ProductsPage() {
      { 
       name: "Specialty Brass Alloys", 
       description: "Custom-developed brass alloys to meet specific performance requirements, including high-strength or lead-free options.",
-      image: "https://picsum.photos/400/300?random=12",
+      image: "images/billet.jpg",
       dataAiHint: "metal alloys",
       features: [
         { title: "Tailored Properties", description: "Alloys designed for specific mechanical, electrical, or corrosion resistance needs.", icon: <CheckCircle size={18} /> },
