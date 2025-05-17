@@ -9,28 +9,28 @@ export default function InfrastructurePage() {
       title: "State-of-the-Art Foundry", 
       description: "Equipped with advanced induction furnaces and continuous casting machines for efficient and high-quality ingot production.",
       icon: <Factory size={20} />,
-      image: "https://picsum.photos/600/400?random=20",
+      image: "images/frontmission-foundry.jpg",
       dataAiHint: "foundry machines"
     },
     { 
       title: "Precision Rod Extrusion Plant", 
       description: "Modern extrusion presses and drawing lines capable of producing brass rods with tight dimensional tolerances and superior surface finish.",
       icon: <SettingsIcon/>,
-      image: "https://picsum.photos/600/400?random=21",
+      image: "images/Extrusion.jpg",
       dataAiHint: "extrusion machine"
     },
     { 
       title: "Advanced Quality Control Laboratory", 
       description: "Comprehensive testing facilities including spectrometers, tensile testers, and metallographic analysis equipment to ensure every product meets stringent standards.",
       icon: <Microscope size={20} />,
-      image: "https://picsum.photos/600/400?random=22",
+      image: "images/lab.jpg",
       dataAiHint: "laboratory equipment"
     },
     { 
       title: "Automated Material Handling", 
       description: "Efficient systems for raw material and finished goods movement, optimizing workflow and ensuring safety.",
       icon: <HardHat size={20} />,
-      image: "https://picsum.photos/600/400?random=23",
+      image: "images/Automated.jpg",
       dataAiHint: "warehouse automation"
     },
   ];
