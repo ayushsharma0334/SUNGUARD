@@ -73,7 +73,7 @@ export default function HomePage() {
             </div>
             <div className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-xl">
               <Image 
-                src="https://picsum.photos/600/400?random=1" 
+                src="images/frontmission-foundry.jpg" 
                 alt="Suncast Global Mission" 
                 layout="fill" 
                 objectFit="cover"
