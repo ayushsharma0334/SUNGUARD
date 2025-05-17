@@ -18,7 +18,7 @@ export default function CertificationsPage() {
       issuingBody: "International Organization for Standardization",
       description: "Highlights our dedication to managing environmental responsibilities in a systematic manner that contributes to the environmental pillar of sustainability.",
       icon: <Leaf className="h-10 w-10 text-accent" />,
-      image: "https://picsum.photos/300/200?random=31",
+      image: "images/14001-2015.jpg",
       dataAiHint: "environment certificate"
     },
     {
@@ -26,7 +26,7 @@ export default function CertificationsPage() {
       issuingBody: "International Organization for Standardization",
       description: "Ensures a safe and healthy workplace by preventing work-related injury and ill health, as well as by proactively improving its OH&S performance.",
       icon: <ShieldCheck className="h-10 w-10 text-accent" />,
-      image: "https://picsum.photos/300/200?random=32",
+      image: "images/45001-2015.jpg",
       dataAiHint: "safety certificate"
     },
     {
@@ -34,7 +34,7 @@ export default function CertificationsPage() {
       issuingBody: "Relevant Certification Body",
       description: "IATF 16949 is a global quality management system standard for the automotive industry, based on ISO 9001:2015",
       icon: <CheckCircle className="h-10 w-10 text-accent" />,
-      image: "https://picsum.photos/300/200?random=33",
+      image: "images/iatf.jpg",
       dataAiHint: "compliance document"
     },
   ];
